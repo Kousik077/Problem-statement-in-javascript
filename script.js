@@ -1,25 +1,12 @@
-
-let totalitems=["pizza","idli","juice"];
-let total=0;
-for(let i=0;i<totalitems.length;i++){
-    switch(totalitems[i]){
-        case "pizza":
-            total+=400;
-            break;
-        case "juice":
-            total+=100;
-            break;
-        case "idli":
-            total+=150;
-            break;
-        case "coffee":
-            total+=35;
-            break;
+let m=2;
+let n=4;
+if (m>n){
+    console.log(0)
+}
+let sum=0
+    while (m<=n){
+        sum+=m*m*m;
+        m=m+1;
     }
-}
-if (total>=500){
-    console.log(total-total*0.1);
 
-}else{
-    console.log(total);
-}
+console.log(sum);
