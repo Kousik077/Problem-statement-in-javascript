@@ -1,3 +1,4 @@
+
 let arr=[10,9,0,7,6,4,0,2,0,1];
 let arr1= new Array(arr.length).fill(0);
 
